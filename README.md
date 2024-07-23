@@ -23,25 +23,25 @@ server.port=8081
 
 
 ## Endpoints
-Comentarios
-- GET /comentario/lista/{codEvento} - Listar comentarios por evento
-- POST /comentario/agregar - Agregar nuevo comentario
-- DELETE /comentario/eliminar/{id} - Eliminar comentario
-Entradas
-- GET /entrada/lista/{usuario} - Listar entradas del usuario
-- POST /entrada/agregar - Agregar entrada
-Eventos
-- GET /evento/lista/{usuario} - Listar eventos creados por el usuario
-- GET /evento/listado - Listar todos los eventos con estado 1
-- GET /evento/ver/{codEvento} - Buscar eventos por codEvento
-- POST /evento/agregar - Agregar evento
-- PUT /evento/actualizar - Actualizar evento
-- DELETE /evento/eliminar/{id} - Eliminar evento por código
-- PUT /evento/estado/{codEvento}/{estado} - Cambiar el estado de un evento
-Usuarios
-- GET /user/listar - Listar usuarios con estado 1
-- GET /user/buscar/{codUsuario} - Buscar usuario por codUsuario
-- POST /user/guardar - Guardar usuario
-- PUT /user/actualizar - Actualizar usuario
-- DELETE /user/eliminar/{codUsuario} - Eliminar usuario por codUsuario
+- Comentarios
+  - GET /comentario/lista/{codEvento} - Listar comentarios por evento
+  - POST /comentario/agregar - Agregar nuevo comentario
+  - DELETE /comentario/eliminar/{id} - Eliminar comentario
+- Entradas
+  - GET /entrada/lista/{usuario} - Listar entradas del usuario
+  - POST /entrada/agregar - Agregar entrada
+- Eventos
+  - GET /evento/lista/{usuario} - Listar eventos creados por el usuario
+  - GET /evento/listado - Listar todos los eventos con estado 1
+  - GET /evento/ver/{codEvento} - Buscar eventos por codEvento
+  - POST /evento/agregar - Agregar evento
+  - PUT /evento/actualizar - Actualizar evento
+  - DELETE /evento/eliminar/{id} - Eliminar evento por código
+  - PUT /evento/estado/{codEvento}/{estado} - Cambiar el estado de un evento
+- Usuarios
+  - GET /user/listar - Listar usuarios con estado 1
+  - GET /user/buscar/{codUsuario} - Buscar usuario por codUsuario
+  - POST /user/guardar - Guardar usuario
+  - PUT /user/actualizar - Actualizar usuario
+  - DELETE /user/eliminar/{codUsuario} - Eliminar usuario por codUsuario
 
